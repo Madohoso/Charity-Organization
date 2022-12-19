@@ -35,7 +35,7 @@ const LoginPage = ()=>{
                 <div className='pt-3'>
                     <div className="form-check">
                         <input data-testid="keepmelogin" onChange={()=>setKeepmelogin((keepmelogin)=> !keepmelogin)} className="form-check-input" type="checkbox" />
-                        <label className="form-check-label">Keep me logged in</label>
+                        <label className="form-check-label">keep me logged in</label>
                     </div>
                 </div>
                 <div style={{textAlign:"center"}} className="pt-2">
