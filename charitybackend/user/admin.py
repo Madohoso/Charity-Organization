@@ -9,8 +9,8 @@ User = get_user_model()
 
 
 # admin.site.unregister(Group)
-admin.site.site_header = "auth"
-admin.site.site_title = "auth"
+admin.site.site_header = "Charity organization"
+admin.site.site_title = "Charity organization"
 
 class UserAdmin(BaseUserAdmin):
     # The forms to add and change user instances
