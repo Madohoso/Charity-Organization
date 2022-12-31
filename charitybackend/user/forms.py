@@ -1,6 +1,7 @@
 from django import forms
 from django.contrib.auth import get_user_model
 from django.contrib.auth.forms import ReadOnlyPasswordHashField
+from django.contrib.auth.models import Group,Permission
 
 User = get_user_model()
 
@@ -66,9 +67,11 @@ class UserAdminCreationForm(forms.ModelForm):
     def save(self, commit=True):
         # Save the provided password in hashed format
         user = super().save(commit=False)
+        # user.is_staff = True
         user.set_password(self.cleaned_data["password"])
-        if commit:
-            user.save()
+        user.save()    
+        group = Group.objects.get(name="staff")
+        user.groups.add(group)
         return user
 
 

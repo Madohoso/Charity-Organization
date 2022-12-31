@@ -4,6 +4,7 @@ from django.contrib.auth.models import (
     BaseUserManager, AbstractBaseUser,PermissionsMixin
 )
 
+# from django.contrib.auth.backends import ModelBackend
 
 class CustomUserManager(BaseUserManager):
 

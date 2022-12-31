@@ -1,14 +1,14 @@
 from django.contrib import admin
 from django.contrib.auth import get_user_model
-from django.contrib.auth.models import Group
+from django.contrib.auth.models import Group,Permission
 from django.contrib.auth.admin import UserAdmin as BaseUserAdmin  
 from .forms import UserAdminCreationForm, UserAdminChangeForm
-
+from django.contrib.auth.models import Permission 
 
 User = get_user_model()
 
 
-admin.site.unregister(Group)
+# admin.site.unregister(Group)
 admin.site.site_header = "auth"
 admin.site.site_title = "auth"
 
@@ -44,3 +44,4 @@ class UserAdmin(BaseUserAdmin):
 
 
 admin.site.register(User, UserAdmin)
+admin.site.register(Permission)
