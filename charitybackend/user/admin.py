@@ -17,10 +17,11 @@ class UserAdmin(BaseUserAdmin):
     form = UserAdminChangeForm
     add_form = UserAdminCreationForm
 
+
     # The fields to be used in displaying the User model.
     # These override the definitions on the base UserAdmin
     # that reference specific fields on auth.User.
-    list_display = ['email', 'is_active' ,'is_superuser','last_login']
+    list_display = ['email', 'is_active', 'is_staff' ,'is_superuser','last_login']
     list_filter = ['is_superuser']
     fieldsets = (
         (None, {'fields': ('email', 'password','is_active',)}),
@@ -32,7 +33,7 @@ class UserAdmin(BaseUserAdmin):
     add_fieldsets = (
         (None, {
             'classes': ('wide',),
-            'fields': ('email', 'name' ,'password', 'password_2')}
+            'fields': ('email', 'name','is_staff' ,'password', 'password_2')}
         ),
     )
     search_fields = ['email']

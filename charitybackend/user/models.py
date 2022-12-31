@@ -47,13 +47,15 @@ class MyUser(AbstractBaseUser,PermissionsMixin):
 
 
     email = models.EmailField(unique=True)
-    # username = models.CharField(max_length=100,unique=True,blank=True,null=True)
-    # phoneNumber = models.CharField(max_length=30,unique=True,blank=True,null=True)
     name = models.CharField(max_length=100)
     created_on = models.DateField(auto_now_add=True)
     is_staff = models.BooleanField(default=False)
-    is_active = models.BooleanField(default=False)
+    is_active = models.BooleanField(default=True)
     objects = CustomUserManager()
 
-    REQUIRED_FIELDS = ['name','username']
+    REQUIRED_FIELDS = ['name']
     USERNAME_FIELD = 'email'
+
+    class Meta:
+        verbose_name = "User"
+        verbose_name_plural = "Users"
