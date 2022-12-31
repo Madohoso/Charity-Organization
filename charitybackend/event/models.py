@@ -13,7 +13,7 @@ class Event(models.Model):
     current_amount = models.PositiveIntegerField(default=0)
 
 
-class Eventstats(models.Model):
+class Donation(models.Model):
 
     status_dict = {
         'paid': 'p',
