@@ -22,7 +22,7 @@ const LoginPage = ()=>{
     },[isLoggedIn])
 
     useEffect(()=>{
-        document.title = "Metro Markets | Login"
+        document.title = "Charity organization | Login"
     },[])
 
     return (

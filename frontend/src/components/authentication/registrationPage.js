@@ -27,7 +27,7 @@ const RegistrationPage = () =>{
     },[isLoggedIn])
 
     useEffect(()=>{
-        document.title = "Metro Markets | Register"
+        document.title = "Charity organization | Register"
     },[])
 
     function OnCLick(){

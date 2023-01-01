@@ -11,7 +11,7 @@ class Event(models.Model):
     description = models.TextField()
     desired_amount = models.PositiveIntegerField()
     current_amount = models.PositiveIntegerField(default=0)
-
+    photo = models.ImageField(upload_to='images/',blank=True,null=True)
 
 class Donation(models.Model):
 

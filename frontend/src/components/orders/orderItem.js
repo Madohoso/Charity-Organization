@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom'
+// import { Link } from 'react-router-dom'
 import cartPhoto from '../../imgs/donation.jpg' 
 import { useDispatch } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
@@ -23,11 +23,11 @@ export const OrderItem = (props) => {
     }
 
     var text = props.description.length > 30 ? props.description.slice(0,30) + '...' : props.description;
-
+    
     return (
         <div onClick={onClick} className='hovered' style={{textDecoration:"none",pointer:'cursor'}}>
             <div className="cart-item">
-                <img className="cart-item-img" src={cartPhoto}/>
+                <img className="cart-item-img" src={props.photo ? props.photo :cartPhoto}/>
                 <div style={{textAlign:"center",margin:"30px",width:"100%"}} >
                     <div className="d-flex p-2 justify-content-between">
                         <TitleSection title={"Name"} text={props.name} />

@@ -5,6 +5,7 @@ import { DOMAIN } from '../../constants';
 import { refreshToken } from '../../features/login_reducer';
 import {StripeCard} from '../payment/stripe';
 import { loadingActions } from '../../features/loading_reducer';
+import { Link } from 'react-router-dom';
 
 const EventPage = () => {
     
@@ -89,7 +90,11 @@ const EventPage = () => {
                         <input style={{width:"100%"}} onChange={(e) => setSearchInput(e.target.value)} value={searchInput} className="form-control bg-light no-border" type="text" placeholder="Enter amount you want to donate" id="search" name="search" />    
                     </div>
                     <button onClick={onClick} className="add-item">Donate</button>
-                    <button className="mt-2 p-2 red-button">Back to Events</button>
+                    <Link to="/">
+                        <button className="mt-2 p-2 red-button">Back to Events</button>
+                    </Link>
+                    
+                    {/* <Link to={{pathname:'/'}} className="mt-2 p-2 red-button">Back to Events</Link> */}
                 </div>)  }        
             </div>
             
