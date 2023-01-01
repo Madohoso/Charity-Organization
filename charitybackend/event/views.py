@@ -10,7 +10,7 @@ import stripe
 import pytz
 from rest_framework.permissions import IsAuthenticated
 
-stripe.api_key = 'sk_test_51MLOnbBbxPkcPsN0T3GAUaK3Q9F0qfTCbqJRpXt0iNqcTDDvLLVv3cBxf318fjxCMvOa9dmtUDvYkx3cLnYAEHq900HXtIGDbv'
+stripe.api_key = 'API_SECRET'
 
 utc= pytz.UTC
 # Create your views here.
