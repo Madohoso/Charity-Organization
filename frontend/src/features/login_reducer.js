@@ -97,7 +97,7 @@ async function refreshFetch(token,SuccessCallback,KeepMeLogin,FailureCallback){
     const obj = {
         refresh:token
     }
-    await fetch(DOMAIN+'/user/api/token/refresh/', {
+    await fetch(DOMAIN+'/user/token/refresh/', {
         method:'POST',
         body:JSON.stringify(obj),
         headers:{

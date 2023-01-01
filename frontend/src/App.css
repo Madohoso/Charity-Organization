@@ -733,6 +733,11 @@ div.cart-items-qty {
   color: #002575;
 }
 
+.cart-section{
+  margin: 0px;
+  margin-bottom: 10px;
+  width: 100%;
+}
 
 @media screen and (max-width: 1000px) {
   .main-page {

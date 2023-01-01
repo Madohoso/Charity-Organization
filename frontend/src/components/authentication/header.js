@@ -1,4 +1,5 @@
 import logoImg from '../../imgs/Logo.png';
+
 export const Header = (props)=>{
     return (
         <div style={{textAlign:"center"}}>

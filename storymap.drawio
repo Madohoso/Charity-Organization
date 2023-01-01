@@ -1,0 +1,106 @@
+<mxfile host="65bd71144e">
+    <diagram id="r0K5BMlpksTHvAtpoPWg" name="Page-1">
+        <mxGraphModel dx="734" dy="574" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="Admin module" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#76608a;strokeColor=#432D57;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="110" y="120" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="User module" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#76608a;fontColor=#ffffff;strokeColor=#432D57;" parent="1" vertex="1">
+                    <mxGeometry x="310" y="120" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="Event Module" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#76608a;fontColor=#ffffff;strokeColor=#432D57;" parent="1" vertex="1">
+                    <mxGeometry x="490" y="120" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="Payment module" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#76608a;fontColor=#ffffff;strokeColor=#432D57;" parent="1" vertex="1">
+                    <mxGeometry x="670" y="120" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="Epics" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="20" y="125" width="50" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="Admin signup page" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" parent="1" vertex="1">
+                    <mxGeometry x="110" y="210" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="Admin Login page" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" parent="1" vertex="1">
+                    <mxGeometry x="110" y="280" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="User signup page" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" parent="1" vertex="1">
+                    <mxGeometry x="310" y="210" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="User Login page" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" parent="1" vertex="1">
+                    <mxGeometry x="310" y="280" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="Event creation form" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" parent="1" vertex="1">
+                    <mxGeometry x="490" y="210" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="Creditcard Payment form" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" parent="1" vertex="1">
+                    <mxGeometry x="670" y="210" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="Release 1" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="20" y="240" width="60" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="Release 2" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="20" y="440" width="60" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="Admin create,delete Event" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" parent="1" vertex="1">
+                    <mxGeometry x="110" y="430" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="Item module" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#76608a;fontColor=#ffffff;strokeColor=#432D57;" parent="1" vertex="1">
+                    <mxGeometry x="860" y="120" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="Item creation form" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" parent="1" vertex="1">
+                    <mxGeometry x="860" y="210" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="Staff module" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#76608a;fontColor=#ffffff;strokeColor=#432D57;" parent="1" vertex="1">
+                    <mxGeometry x="1050" y="120" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="Staff creation form" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" parent="1" vertex="1">
+                    <mxGeometry x="1050" y="210" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" value="Admin view,edit&lt;br&gt;Event" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" parent="1" vertex="1">
+                    <mxGeometry x="110" y="500" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" value="Admin create,delete Staff" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" parent="1" vertex="1">
+                    <mxGeometry x="110" y="570" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" value="Admin view,edit Staff" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" parent="1" vertex="1">
+                    <mxGeometry x="110" y="640" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" value="Staff create,delete Item" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" parent="1" vertex="1">
+                    <mxGeometry x="1050" y="430" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="43" value="Staff view,edit&lt;br&gt;Staff" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" parent="1" vertex="1">
+                    <mxGeometry x="1050" y="500" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="44" value="User view Events" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" parent="1" vertex="1">
+                    <mxGeometry x="305" y="430" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="45" value="Integerate with Stripe API" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" parent="1" vertex="1">
+                    <mxGeometry x="670" y="430" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="46" value="Event dashboard" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" parent="1" vertex="1">
+                    <mxGeometry x="490" y="800" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="47" value="Item dashboard" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" parent="1" vertex="1">
+                    <mxGeometry x="860" y="800" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="48" value="Release 3" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="20" y="810" width="60" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="50" value="Admin View Event&lt;br&gt;Dashboard" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" parent="1" vertex="1">
+                    <mxGeometry x="110" y="800" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="51" value="Admin View Item Dashboard" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" parent="1" vertex="1">
+                    <mxGeometry x="110" y="880" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="52" value="User pays to Events" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" parent="1" vertex="1">
+                    <mxGeometry x="305" y="800" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="53" value="payment dashboard" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" parent="1" vertex="1">
+                    <mxGeometry x="670" y="500" width="120" height="60" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
