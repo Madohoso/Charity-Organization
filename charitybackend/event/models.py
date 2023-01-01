@@ -24,5 +24,5 @@ class Donation(models.Model):
     date = models.DateField(auto_now=True)
     payment_intent = models.CharField(max_length=100,blank=True,null=True)
     user = models.ForeignKey(User,on_delete=models.RESTRICT)
-    status = models.CharField(max_length=1)
+    status = models.CharField(max_length=1,default='w')
     amount = models.PositiveIntegerField(default=10)
