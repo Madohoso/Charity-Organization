@@ -49,7 +49,7 @@ class CreateDonationRequest(APIView):
             return Response(status=400)
 
         payment_intent = stripe.PaymentIntent.create(amount=amount*100,currency='usd')
-        donation = Donation(event_id=body['event'],payment_intent=payment_intent.client_secret,user=request.user,amount=amount,status=Donation.status_dict['pending'])
+        donation = Donation(event_id=body['event'],payment_intent=payment_intent.client_secret,user=request.user,amount=amount,status='pending')
         donation.save()
         return Response({"paymentIntent":payment_intent.client_secret})
 
@@ -77,7 +77,7 @@ class IntentListener(APIView):
             payment_method = event.data.object
             try:
                 donation = Donation.objects.get(payment_intent=payment_method.client_secret)
-                donation.status = Donation.status_dict['paid']
+                donation.status = 'paid'
                 donation.save()
                 event = Event.objects.get(pk=donation.event.id)
                 event.current_amount += donation.amount
